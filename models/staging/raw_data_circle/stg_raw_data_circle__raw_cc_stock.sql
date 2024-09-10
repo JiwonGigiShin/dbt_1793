@@ -11,11 +11,8 @@ renamed as (
     select
         concat(model, "_", color, "_", size) AS product_id,
         model,
-        model_name,
         color,
-        color_name,
         size,
-        new,
         forecast_stock,
         stock,
         price
